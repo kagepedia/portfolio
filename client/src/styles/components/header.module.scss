@@ -1,0 +1,16 @@
+.header {
+  height: 50px;
+}
+
+.title {
+  float: left;
+}
+
+.nav {
+  text-align: right;
+  > li {
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 20px;
+  }
+}
